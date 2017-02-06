@@ -2,11 +2,14 @@ package e165756;
 
 public class Slot {
     public static void main(String[] args) {
+      /*
+        * 初期値設定
+        * */
         double Num = 10.0;
         int count = 50;
         int Lucky = 7;
         int i, n1, n2, n3,p1 = 0;
-
+/**/
             for (i = 0; i < count; i++) {
                 n1 = (int) (Math.random() * Num);
                 n2 = (int) (Math.random() * Num);
@@ -27,7 +30,12 @@ public class Slot {
             if (i == count) {
                 System.out.println("終了！！");
             }
-            System.out.println("得点は" + p1 + "です");
+            System.out.println("得点は" + p1 + "点です");
+        if(p1 >= 25){
+            System.out.println("あなたの勝ちです");
+        }else{
+            System.out.println("あなたの負けです");
+        }
     }
 
 }

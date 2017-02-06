@@ -12,7 +12,14 @@ public class Slot {
             n3 = (int)(Math.random()*Num);
             if(n1 == n2 && n1 == n3){
                 System.out.println("ゾロ目！！(" + (i+1) + "回目)");
+                break;
+            }else if(n1 == n2 || n1 == n3 || n2 == n3){
+                System.out.println("惜しい！！");
             }
+            System.out.println();
+        }
+        if(i == count){
+            System.out.println("ダメでした");
         }
     }
 }

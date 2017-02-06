@@ -10,6 +10,7 @@ public class Slot {
             n1 = (int)(Math.random()*Num);
             n2 = (int)(Math.random()*Num);
             n3 = (int)(Math.random()*Num);
+            System.out.println(n1 +"" + n2 + "" + n3);
             if(n1 == n2 && n1 == n3){
                 System.out.println("ゾロ目！！(" + (i+1) + "回目)");
                 break;

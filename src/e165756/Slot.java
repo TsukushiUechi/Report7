@@ -9,7 +9,6 @@ public class Slot {
         int count = 50;
         int Lucky = 7;
         int i, n1, n2, n3,p1 = 0;
-/**/
             for (i = 0; i < count; i++) {
                 n1 = (int) (Math.random() * Num);
                 n2 = (int) (Math.random() * Num);

@@ -30,7 +30,7 @@ public class Slot {
                 System.out.println("終了！！");
             }
             System.out.println("得点は" + p1 + "点です");
-        if(p1 >= 25){
+        if(p1 >= 20){
             System.out.println("あなたの勝ちです");
         }else{
             System.out.println("あなたの負けです");
